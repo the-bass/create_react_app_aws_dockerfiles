@@ -48,7 +48,7 @@ docker run -it --rm \
 
 ### Run bash
 
-In some cases it might be convenient to run an interactive bash session inside a container.
+In some cases it might be convenient to run an interactive bash session inside a container. For example to add or remove dependencies using `yarn add ...` and `yarn remove ...`.
 
 ```sh
 docker run -it --rm \
